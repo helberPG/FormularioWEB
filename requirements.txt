@@ -1,5 +1,5 @@
-
 Flask
 pandas
 joblib
+scikit-learn
 xhtml2pdf
