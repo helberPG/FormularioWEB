@@ -1,4 +1,4 @@
- flask import Flask, request, render_template, jsonify, send_file
+from flask import Flask, request, render_template, jsonify, send_file
 import joblib
 import pandas as pd
 import io
@@ -6,7 +6,7 @@ from xhtml2pdf import pisa
 import ast
 
 app = Flask(__name__)
-from
+
 # Cargar modelo y columnas
 modelo = joblib.load('modelo_randomforest.pkl') 
 columnas = joblib.load('columnas_modelo.pkl')
